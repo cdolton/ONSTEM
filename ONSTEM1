@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math and Science Courses in Ontario</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #007acc;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 32px;
+        }
+
+        .course-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 20px;
+            padding: 20px;
+        }
+
+        .course {
+            background-color: #fff;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            flex: 0 1 calc(30% - 20px);
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        .course h2 {
+            font-size: 24px;
+            color: #007acc;
+        }
+
+        .course p {
+            font-size: 16px;
+        }
+
+        .course img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .course ul {
+            list-style-type: disc;
+            padding-left: 20px;
+        }
+
+        .course li {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+
+        .resource-link {
+            display: block;
+            color: #007acc;
+            text-decoration: none;
+        }
+
+        .resource-link:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background-color: #007acc;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        footer p {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Math and Science Courses in Ontario</h1>
+    </header>
+
+    <div class="course-container">
+        <div class="course">
+            <img src="math_icon.png" alt="Math Icon">
+            <h2>Grade 9 Academic Mathematics - MPM1D1</h2>
+            <p>
+                The Grade 9 Academic Mathematics course in Ontario, MPM1D1, covers a variety of mathematical concepts.
+            </p>
+            <ul>
+                <li><strong>1. Linear Equations and Inequalities:</strong> Understanding and solving linear equations and inequalities.
+                    <a class="resource-link" href="https://www.khanacademy.org/math/algebra">Khan Academy - Linear Equations</a>
+                </li>
+                <!-- Include other concepts and web-based resources here -->
+            </ul>
+        </div>
+
+        <!-- Repeat the structure for Grade 10, Grade 11, and Grade 12 courses -->
+        <!-- Include visually appealing graphics related to math and science for each course -->
+    </div>
+
+    <!-- Repeat for Grade 10, Grade 11, and Grade 12 courses -->
+
+    <footer>
+        <p>Always check for the most up-to-date curriculum standards and adjust your learning materials accordingly. Additionally, your school or teacher may provide specific resources aligned with the curriculum.</p>
+    </footer>
+</body>
+</html>
